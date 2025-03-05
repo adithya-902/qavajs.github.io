@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 import {Redirect} from '@docusaurus/router';
-
+//hello
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return <Redirect to="/docs/intro" />;
